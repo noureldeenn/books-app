@@ -93,7 +93,7 @@ const AddBookDialog = ({ open, onClose, onSuccess }: AddBookDialogProps) => {
           ))}
         </TextField>
       </DialogContent>
-      <DialogActions className="bg-gray-900">
+      <DialogActions className="bg-white px-6 pb-4">
         <Button onClick={onClose} variant="outlined" color="secondary">
           Cancel
         </Button>
